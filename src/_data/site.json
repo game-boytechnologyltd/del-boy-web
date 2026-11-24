@@ -1,7 +1,7 @@
 {
   "_help": "Main settings for the whole website. See EDITING.md. Change a value here and it updates on every page.",
 
-  "name": "DEL-BOY®",
+  "name": "DEL-BOY™",
   "url": "https://del-boy.com",
   "productionBranch": "main",
 
