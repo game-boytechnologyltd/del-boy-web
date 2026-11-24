@@ -2,20 +2,20 @@
 layout: page.njk
 pageClass: support
 permalink: /support/
-title: "DEL-BOY® Support | Help, FAQs and contact"
-description: "Get help with the DEL-BOY® app. Answers to common questions and how to contact the DEL-BOY® team."
-heading: "DEL-BOY® Support"
+title: "DEL-BOY Support | Help, FAQs and contact"
+description: "Get help with the DEL-BOY app. Answers to common questions and how to contact the DEL-BOY team."
+heading: "DEL-BOY™ Support"
 intro: "Questions about downloading the app, your account or a job? We're here to help."
 
 # FAQs — grouped. Add, remove or edit questions here. Answers can use **bold** and [links](/privacy/).
 faqGroups:
   - title: "Getting started"
     items:
-      - q: "When will the DEL-BOY® app be available on iOS and Android?"
-        a: "DEL-BOY® is launching exclusively on the App Store first, then on Google Play soon."
-      - q: "What areas does DEL-BOY® currently cover?"
+      - q: "When will the DEL-BOY app be available on iOS and Android?"
+        a: "DEL-BOY is launching exclusively on the App Store first, then on Google Play soon."
+      - q: "What areas does DEL-BOY currently cover?"
         a: "We're active across London, the West Midlands, Cumbria, South Wales, the North East and surrounding regional corridors, connecting local bosses directly with trusted workers."
-      - q: "Who is DEL-BOY® for?"
+      - q: "Who is DEL-BOY for?"
         a: "People looking for quick jobs, and people who need someone for a job."
   - title: "Your account"
     items:
@@ -25,8 +25,8 @@ faqGroups:
         a: "In the app, go to Settings and tap **Delete my account**. This permanently removes your profile, documents and sign-in. Completed job and payment records are kept anonymised, as required by law. This can't be undone. See our [Privacy notice](/privacy/) for more."
   - title: "Jobs"
     items:
-      - q: "Can I use DEL-BOY® to post a job?"
-        a: "Yes. DEL-BOY® is for people who need someone for a job as well as people looking for work."
+      - q: "Can I use DEL-BOY to post a job?"
+        a: "Yes. DEL-BOY is for people who need someone for a job as well as people looking for work."
       - q: "Where do I see a job's details?"
         a: "Tap any job in the app to open its details."
       - q: "Can workers be paid in cash?"
@@ -36,12 +36,12 @@ faqGroups:
   - title: "Technical issues"
     items:
       - q: "The app isn't working properly."
-        a: "Make sure you have the latest version of DEL-BOY® and of iOS, then close and reopen the app. If the problem continues, email us with your iPhone model, iOS version and a short description of what happened."
+        a: "Make sure you have the latest version of DEL-BOY and of iOS, then close and reopen the app. If the problem continues, email us with your iPhone model, iOS version and a short description of what happened."
 ---
 
 <section aria-labelledby="contact-title" class="contact-card">
   <h2 id="contact-title">Contact us</h2>
-  <p>Email <a class="email-link" href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a> and the DEL-BOY® team will get back to you.</p>
+  <p>Email <a class="email-link" href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a> and the DEL-BOY team will get back to you.</p>
   {% if site.whatsapp.number %}<p>Or <a href="https://wa.me/{{ site.whatsapp.number }}" rel="noopener">message us on WhatsApp</a>.</p>{% endif %}
   {% if site.whatsapp.groupUrl %}<p>Join the conversation with local bosses and workers in our <a href="{{ site.whatsapp.groupUrl }}" rel="noopener">WhatsApp community group</a>.</p>{% endif %}
   <p class="hint">Please don't include passwords or payment card details in your message.</p>
@@ -89,5 +89,5 @@ faqGroups:
 {% endfor %}
 
 <h2>Company details</h2>
-<p>{% if site.company.verified %}DEL-BOY® is operated by {{ site.company.name }}, company number {{ site.company.number }}, {{ site.company.jurisdiction | lower }}. Registered office: {{ site.company.address }}.{% else %}See the footer of this page.{% endif %}</p>
+<p>{% if site.company.verified %}DEL-BOY™ is operated by {{ site.company.name }}, company number {{ site.company.number }}, {{ site.company.jurisdiction | lower }}. Registered office: {{ site.company.address }}.{% else %}See the footer of this page.{% endif %}</p>
 <p><a href="/privacy/">Privacy notice</a> · <a href="/terms/">Terms of use</a></p>
