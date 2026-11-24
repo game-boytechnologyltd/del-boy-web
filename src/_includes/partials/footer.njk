@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div class="footer-brand">
-      <img src="/assets/img/logo-transparent.svg" alt="DEL-BOY®" width="150" height="28" loading="lazy">
+      <img src="/assets/img/logo-transparent.svg" alt="DEL-BOY™" width="150" height="28" loading="lazy">
       <p>Instant jobs. Instant pay.</p>
     </div>
 
@@ -20,15 +20,15 @@
       {% if site.company.verified or build.preview %}
       <p>
         {% if not site.company.verified %}<span class="draft-tag">Awaiting client verification</span><br>{% endif %}
-        DEL-BOY® is operated by {{ site.company.name }}.
+        DEL-BOY™ is operated by {{ site.company.name }}.
         {{ site.company.jurisdiction }}, company number {{ site.company.number }}.
         Registered office: {{ site.company.address }}.
         {% if site.company.ico %}ICO registration: {{ site.company.ico }}.{% endif %}
       </p>
       {% else %}
-      <p>DEL-BOY® — contact <a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a>.</p>
+      <p>DEL-BOY — contact <a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a>.</p>
       {% endif %}
-      <p>© {{ "" | year }} DEL-BOY®. Apple, the Apple logo and iPhone are trademarks of Apple Inc. App Store is a service mark of Apple Inc.</p>
+      <p>© {{ "" | year }} DEL-BOY™. Apple, the Apple logo and iPhone are trademarks of Apple Inc. App Store is a service mark of Apple Inc.</p>
     </div>
   </div>
 </footer>
