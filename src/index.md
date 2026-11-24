@@ -1,7 +1,7 @@
 ---
 layout: home.njk
 pageClass: home
-title: "DEL-BOY® | Instant Jobs. Instant Pay."
+title: "DEL-BOY | Instant Jobs. Instant Pay."
 description: "The one app for hustle. Find jobs, connect with bosses and cash out instantly. Switch between worker and boss on the go."
 
 # ───────────────────────────────────────────────────────────────
@@ -17,7 +17,7 @@ hero:
 
 # Swipeable highlight cards under the hero. icon: bolt, pound, search, plus or check.
 highlights:
-  title: "Why DEL-BOY®"
+  title: "Why DEL-BOY™"
   items:
     - icon: bolt
       title: "Instant jobs"
@@ -44,25 +44,25 @@ screens:
     mock: map
     title: "Live map"
     caption: "Go online and watch jobs pop up near you the moment they're posted."
-    alt: "DEL-BOY® live map showing jobs and people nearby"
+    alt: "DEL-BOY live map showing jobs and people nearby"
   - id: browse
     image: ""
     mock: browse
     title: "Browse jobs"
     caption: "See every instant job in one list and pick the ones that suit you."
-    alt: "DEL-BOY® app screen showing a list of available jobs"
+    alt: "DEL-BOY app screen showing a list of available jobs"
   - id: details
     image: ""
     mock: details
     title: "Check the details"
     caption: "Open a job to read what's involved before you decide."
-    alt: "DEL-BOY® app screen showing the details of one job"
+    alt: "DEL-BOY app screen showing the details of one job"
   - id: post
     image: ""
     mock: post
     title: "Post a job"
     caption: "Describe what you need done and add the details."
-    alt: "DEL-BOY® app screen for creating a new job post"
+    alt: "DEL-BOY app screen for creating a new job post"
 
 audiences:
   - id: find-work
@@ -98,29 +98,29 @@ steps:
       text: "The app works out the minimum pay for both sides. Just accept and pay, and your job goes live."
 
 walkthrough:
-  title: "See DEL-BOY® in action"
+  title: "See DEL-BOY in action"
   text: "A quick look at the screens you'll use most."
 
 # Short questions on the homepage. Fuller answers live on the Support page (support.md).
 faqTitle: "Instant questions"
 faqs:
-  - q: "When will the DEL-BOY® app be available on iOS and Android?"
-    a: "DEL-BOY® is launching exclusively on the App Store first, then on Google Play soon."
-  - q: "What areas does DEL-BOY® currently cover?"
+  - q: "When will the DEL-BOY app be available on iOS and Android?"
+    a: "DEL-BOY is launching exclusively on the App Store first, then on Google Play soon."
+  - q: "What areas does DEL-BOY currently cover?"
     a: "We're active across London, the West Midlands, Cumbria, South Wales, the North East and surrounding regional corridors, connecting local bosses directly with trusted workers."
   - q: "How do I get help with the app?"
     a: "Visit our [Support page](/support/) or email us — we're happy to help."
-  - q: "Can I use DEL-BOY® to post a job?"
-    a: "Yes — DEL-BOY® is for people who need someone for a job as well as people looking for work. See [how posting works](#steps-posters)."
+  - q: "Can I use DEL-BOY to post a job?"
+    a: "Yes — DEL-BOY is for people who need someone for a job as well as people looking for work. See [how posting works](#steps-posters)."
 
 # WhatsApp community section (link and QR come from site.json → whatsapp)
 community:
-  title: "Join the DEL-BOY® community"
+  title: "Join the DEL-BOY community"
   text: "Local bosses and workers swapping tips on how to make every job easier. Jump into the WhatsApp group."
   button: "Join the WhatsApp group"
 
 final:
   title: "Ready when you are."
-  text: "Get DEL-BOY® on your iPhone and start hustling."
-  credit: "DEL-BOY® powered by Remotedev"
+  text: "Get DEL-BOY on your iPhone and start hustling."
+  credit: "DEL-BOY powered by Remotedev"
 ---
