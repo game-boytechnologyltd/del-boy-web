@@ -3,17 +3,17 @@ layout: page.njk
 pageClass: legal
 permalink: /privacy/
 templateEngineOverride: njk
-title: "Privacy Notice & DBS Policy | DEL-BOY®"
-description: "How GAME-BOY TECHNOLOGY LTD handles personal data across the DEL-BOY® websites and app, our cookies, and our DBS data policy."
+title: "Privacy Notice & DBS Policy | DEL-BOY"
+description: "How GAME-BOY TECHNOLOGY LTD handles personal data across the DEL-BOY websites and app, our cookies, and our DBS data policy."
 heading: "Privacy notice"
 ---
 {#- Approved wording supplied by the client, 14 November 2026. Edit the text between the tags; keep the tags as they are. -#}
-<p class="meta"><strong>Last updated:</strong> {{ site.legal.privacyUpdated }} · Applies to www.del-boy.com, www.del-boy.co.uk and the DEL-BOY® mobile app</p>
+<p class="meta"><strong>Last updated:</strong> {{ site.legal.privacyUpdated }} · Applies to www.del-boy.com, www.del-boy.co.uk and the DEL-BOY mobile app</p>
 <nav class="doc-jump" aria-label="On this page"><a href="#privacy-notice">Privacy notice</a><a href="#cookies">Cookies</a><a href="#dbs-policy">DBS policy</a></nav>
 
 <article id="privacy-notice">
 <h2>1. The short version</h2>
-<p>When you use <strong>DEL-BOY®</strong>, you trust us with your personal data. We take that seriously — no faff, no hidden agendas, and no selling your details to third parties.</p>
+<p>When you use <strong>DEL-BOY™</strong>, you trust us with your personal data. We take that seriously — no faff, no hidden agendas, and no selling your details to third parties.</p>
 <p>This Privacy Notice explains how <strong>{{ site.company.name }}</strong> (registered in England &amp; Wales, company number {{ site.company.number }}) collects, uses, shares and protects your information across our websites (www.del-boy.com and www.del-boy.co.uk) and the DEL-BOY mobile app.</p>
 <p>We operate in strict compliance with the <strong>UK General Data Protection Regulation (UK GDPR)</strong> and the <strong>Data Protection Act 2018</strong>, and we are registered with the Information Commissioner’s Office (ICO).</p>
 <div class="info-card"><ul>
@@ -151,7 +151,7 @@ heading: "Privacy notice"
 
 <h3>1. Purpose of this policy</h3>
 <p>Under <strong>Article 10 of the UK General Data Protection Regulation (UK GDPR)</strong> and <strong>Schedule 1, Part 4 of the Data Protection Act 2018 (DPA 2018)</strong>, organisations that process criminal conviction and offence data (including Disclosure and Barring Service [DBS] certificates) must maintain an <strong>Appropriate Policy Document (APD)</strong>.</p>
-<p>This policy sets out how <strong>{{ site.company.name }}</strong> lawfully, securely and fairly processes DBS certificates submitted by independent contractors (<strong>DEL-BOY</strong> partners) during onboarding and compliance checks on the DEL-BOY platform.</p>
+<p>This policy sets out how <strong>{{ site.company.name }}</strong> lawfully, securely and fairly processes DBS certificates submitted by independent contractors (<strong>DEL-BOY™</strong> partners) during onboarding and compliance checks on the DEL-BOY platform.</p>
 
 <h3>2. Scope &amp; what data we process</h3>
 <ul>
