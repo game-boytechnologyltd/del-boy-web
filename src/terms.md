@@ -2,8 +2,8 @@
 layout: page.njk
 pageClass: legal
 permalink: /terms/
-title: "Terms of use | DEL-BOY®"
-description: "The terms that apply when you use the DEL-BOY® app and website."
+title: "Terms of use | DEL-BOY"
+description: "The terms that apply when you use the DEL-BOY app and website."
 heading: "Terms of use"
 ---
 
@@ -18,11 +18,11 @@ heading: "Terms of use"
 ## About these terms
 [Who the terms are between: {{ site.company.name }} and the user. Effective date. How to contact us.]
 
-## Who can use DEL-BOY®
+## Who can use DEL-BOY
 [Eligibility: minimum age, UK residency, right-to-work requirements where relevant.]
 
 ## Our role
-[Whether DEL-BOY® is a platform connecting people, and what it is and is not responsible for. Whether it is a party to any job arrangement.]
+[Whether DEL-BOY is a platform connecting people, and what it is and is not responsible for. Whether it is a party to any job arrangement.]
 
 ## People looking for work
 [Rules for workers. Status — self-employed or otherwise.]
@@ -46,5 +46,5 @@ heading: "Terms of use"
 [Limitations of liability. Governing law: England and Wales.]
 
 {% else %}
-<p>The terms of use for DEL-BOY® are being finalised and will be published here before the app launches. Questions? Email <a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a>.</p>
+<p>The terms of use for DEL-BOY are being finalised and will be published here before the app launches. Questions? Email <a href="mailto:{{ site.supportEmail }}">{{ site.supportEmail }}</a>.</p>
 {% endif %}
