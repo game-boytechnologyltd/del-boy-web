@@ -2,10 +2,10 @@
 layout: page.njk
 pageClass: release-notes
 permalink: /release-notes/
-title: "Release | DEL-BOY®"
-description: "What's new in the DEL-BOY® app, and what's coming next."
+title: "Release | DEL-BOY"
+description: "What's new in the DEL-BOY app, and what's coming next."
 heading: "Release"
-intro: "What's new in DEL-BOY®, newest first."
+intro: "What's new in DEL-BOY, newest first."
 
 # Add a new release at the TOP of this list. status: "installed" marks the current version.
 releases:
@@ -19,7 +19,7 @@ releases:
 # Features in development. Shown as "Coming soon" — move them into a release once they ship.
 roadmap:
   - title: "Roadside assistance"
-    text: "Drivers on a job can request help in the app, and nearby DEL-BOY® users can step in straight away."
+    text: "Drivers on a job can request help in the app, and nearby DEL-BOY users can step in straight away."
   - title: "Accessories"
     text: "Buy thermal delivery bags and other kit from a built-in store."
   - title: "Badges"
