@@ -1,4 +1,4 @@
-/* DEL-BOY® website styles. Colours and fonts are set once in :root below. */
+/* DEL-BOY™ website styles. Colours and fonts are set once in :root below. */
 
 @font-face { font-family: "Bricolage Grotesque"; src: url("/assets/fonts/bricolage-grotesque-latin-wght-normal.woff2") format("woff2"); font-weight: 200 800; font-display: swap; }
 @font-face { font-family: "Instrument Sans"; src: url("/assets/fonts/instrument-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
@@ -40,7 +40,7 @@ main:focus { outline: none; }
 
 .wrap { width: min(1180px, 100% - 2 * var(--gutter)); margin-inline: auto; }
 .wrap.narrow { width: min(780px, 100% - 2 * var(--gutter)); }
-.reg { font-size: .42em; vertical-align: super; line-height: 0; margin-left: .05em; font-weight: 400; letter-spacing: 0; position: relative; top: -.15em; }
+.reg { font-size: max(.6em, 9px); vertical-align: super; line-height: 0; margin-left: .03em; font-weight: 400; letter-spacing: 0; position: relative; top: .05em; }
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .skip-link { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--ink); color: #fff; padding: 10px 16px; border-radius: 10px; font-weight: 600; }
 .skip-link:focus { top: 12px; }
@@ -383,7 +383,7 @@ html:not(.js) .hl-progress { display: none; }
 .mock-field.tall { display: grid; gap: 2cqw; padding-block: 4cqw; }
 .mock-watermark { position: absolute; left: 50%; bottom: 1.6cqw; transform: translateX(-50%); font-size: 2.8cqw; font-weight: 600; color: #8C3A35; background: #FBE3E1; padding: .6cqw 2.4cqw; border-radius: 99px; white-space: nowrap; }
 
-/* FAQ question rows: plain block text so inline marks like ® stay in the sentence */
+/* FAQ question rows: plain block text so inline marks like ™ stay in the sentence */
 .faq summary { display: block; position: relative; padding-right: 52px; }
 .faq summary::after { position: absolute; right: 22px; top: calc(50% - 7px); }
 .faq[open] summary::after { top: calc(50% - 3px); }
